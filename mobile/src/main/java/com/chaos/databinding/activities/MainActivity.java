@@ -20,6 +20,7 @@ public class MainActivity extends BaseActivity implements ListingsView<Repo>, Se
     private ActivityMainPresenter presenter;
     private RepoAdapter adapter;
     private SearchView search;
+    private String checkVersion;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
